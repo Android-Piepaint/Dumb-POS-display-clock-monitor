@@ -12,7 +12,7 @@
 // You can use "\033@" to clear display, or write your contents.
 // For example, use echo "\033@8964" > /dev/ttyS1 to display "8964" on display.
 // Or just using raw hex codes: printf "\x1b\x40" | sudo tee /dev/ttyS1 will clear the display contents.
-// The display made by an unknown manufacter seems using ASCII-based protocol (Epson ETC/POS?) to communicate with computer under 2400 baudrate.
+// The display made by an unknown manufacturer seems using ASCII-based protocol (Epson ETC/POS?) to communicate with computer under 2400 baudrate.
 //*****************************************************************************
 
 // Function to configure the serial port
